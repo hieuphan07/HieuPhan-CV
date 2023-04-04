@@ -1,0 +1,117 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+/* Banner */
+.bg-img {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position-y: 30%;
+  height: 50vh;
+}
+
+/* Navbar */
+#nav-bar {
+  padding: 0 !important;
+}
+
+#nav-bar .ava {
+  width: 100px;
+  height: 100px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+/* Job Info */
+/* .masonry {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.masonry .job-info-card {
+  break-inside: avoid;
+  margin-top: 20px;
+}
+
+.masonry .job-info-card:first-child {
+  margin-top: 0;
+} */
+
+/* .job-info-body {
+  height: 35rem;
+} */
+
+#job-info .main-ul {
+  list-style: none;
+}
+
+#job-info .sub-ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 5px;
+}
+
+/* Create "Blue-circle" bullet mark for main list */
+#job-info .main-li::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #339af0;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-left: -25px;
+  margin-right: 10px;
+}
+
+/* Style bullet mark for sub list */
+#job-info .sub-ul li::before {
+  content: "- ";
+}
+
+/* Skill level */
+.lv1,
+.lv2,
+.lv3 {
+  background-color: #339af0;
+}
+
+.lv2--off,
+.lv3--off {
+  background-color: grey;
+}
+
+/* Certificate & Adward */
+.cert ul li::before {
+  content: "- ";
+}
+
+/* Digital CV */
+.goals,
+.team,
+.scopes,
+.primary {
+  height: 25rem;
+}
+
+.timeline {
+  height: 51rem;
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5,
+.project-6,
+.project-7 {
+  border-bottom: 1px #339af0 dotted;
+}

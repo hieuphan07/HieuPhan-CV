@@ -1,0 +1,33 @@
+@media (max-width: 575.98px) {
+  .bg-img {
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+  }
+
+  /* Navbar */
+  #nav-bar {
+    justify-content: start !important;
+  }
+
+  #nav-bar .nav-link {
+    border: none !important;
+    padding-left: 20px !important;
+  }
+
+  /* Personal Info */
+  #personal-info ul {
+    padding-left: 0;
+  }
+
+  /* Job Info */
+  /* #job-info .masonry {
+    display: grid;
+    grid-template-columns: 1fr;
+  } */
+
+  /* Certificate */
+  #certificate .cert {
+    border-left: none !important;
+  }
+}

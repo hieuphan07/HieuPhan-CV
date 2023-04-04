@@ -1,0 +1,30 @@
+@media (max-width: 991.98px) {
+  /* Navbar */
+  #nav-bar img {
+    display: block;
+    visibility: hidden;
+  }
+
+  /* Job Info */
+  /* .masonry {
+    column-count: 2 !important;
+  } */
+
+  /* .job-info-body {
+    height: fit-content !important;
+  } */
+
+  /* Certificate */
+  #certificate img {
+    width: 100% !important;
+  }
+
+  /* Digital CV */
+  .goals,
+  .team,
+  .scopes,
+  .primary,
+  .timeline {
+    height: max-content !important;
+  }
+}
