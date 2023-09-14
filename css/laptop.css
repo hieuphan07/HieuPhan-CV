@@ -30,25 +30,6 @@
   transform: translate(-50%, -50%) scale(1.5);
 }
 
-/* Job Info */
-/* .masonry {
-  column-count: 3;
-  column-gap: 20px;
-}
-
-.masonry .job-info-card {
-  break-inside: avoid;
-  margin-top: 20px;
-}
-
-.masonry .job-info-card:first-child {
-  margin-top: 0;
-} */
-
-/* .job-info-body {
-  height: 35rem;
-} */
-
 #job-info .main-ul {
   list-style: none;
 }
